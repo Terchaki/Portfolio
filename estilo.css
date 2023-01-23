@@ -700,6 +700,7 @@ body .leitores-tela {
 }
 #rodape2 ul {
 	display: flex;
+	justify-content: space-between;
 	gap: 25px;
 }
 #rodape2 ul li i {
