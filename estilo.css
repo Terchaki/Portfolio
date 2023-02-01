@@ -18,7 +18,7 @@ html {
 }
 /*Animação do nome*/
 .animacao {
-	border-right: 3px solid rgba(255, 255, 255, 0.75);
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
 	color: #FF4500;
 	font-family: sans-serif;
 	font-size: 40px;
@@ -30,7 +30,7 @@ html {
 }
 .animacao_digitacao {
 	animation: nome 1500ms steps(40) infinite normal, 
-	anima_texto 4s steps(40) 2s 1;
+	anima_texto 3.5s steps(40) 2s 1;
 }
 @keyframes anima_texto {
 	from {
@@ -341,7 +341,7 @@ body .leitores-tela {
 	}
 
 	#caixa .animacao {
-		font-size: 18px;
+		font-size: 20px;
 		line-height: 25px;
 	}
 
@@ -355,7 +355,7 @@ body .leitores-tela {
 		width: 0;
 	}
 	to {
-		width: 210px;
+		width: 200px;
 	}
 	
 	}
