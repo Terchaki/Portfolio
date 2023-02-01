@@ -37,7 +37,7 @@ html {
 		width: 0;
 	}
 	to {
-		width: 450px;
+		width: 100%;
 	}
 }
 @keyframes nome {
@@ -150,17 +150,7 @@ body .leitores-tela {
 		max-height: 250px;
 		
 	}
-
-	@keyframes anima_texto {
-	from {
-		width: 0;
-	}
-	to {
-		width: 350px;
-	}
-
-	}
-
+	
 	.projetos-estilo {
 		width: 250px;
 	}
@@ -208,16 +198,6 @@ body .leitores-tela {
 	#aprensentacao #foto img {
 		max-height: 200px;
 		
-	}
-
-	@keyframes anima_texto {
-	from {
-		width: 0;
-	}
-	to {
-		width: 280px;
-	}
-
 	}
 
 	.projetos-estilo {
@@ -350,16 +330,6 @@ body .leitores-tela {
 		max-width: 100px;
 	}
 
-	@keyframes anima_texto {
-	from {
-		width: 0;
-	}
-	to {
-		width: 210px;
-	}
-	
-	}
-
 	.projetos {
 		flex-direction: column;
 	}
@@ -417,16 +387,6 @@ body .leitores-tela {
 	#aprensentacao #foto img {
 		max-height: 150px;
 		max-width: 80px;
-	}
-
-	@keyframes anima_texto {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
-	
 	}
 
 	.projetos-estilo {
