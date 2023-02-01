@@ -87,6 +87,7 @@ header {
 	height: 70px;
 	padding-top: 20px;
 	position: fixed;
+	z-index: 1000;
 	width: 100%;
 	border-bottom: 2px solid #FF4500;
 }
@@ -485,7 +486,9 @@ body .leitores-tela {
 	align-items: center;
 }
 #caixa {
-	background-color: #1C1C1C;
+	background-color: #000000;
+	box-shadow: 1px 3px 3px 2px #FF4500;
+	opacity: 0.85;
 	left: 0;
 	padding: 20PX;
 	border-radius: 10px 12px 10px 25px;
@@ -547,7 +550,7 @@ body .leitores-tela {
 	padding: 10px;
 } 
 .projetos-estilo .p-tecnologias {
-	color: #DC143C;
+	color: #8B4513;
 } 
 .projetos-estilo button {
 	background: darkorange;
