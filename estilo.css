@@ -22,7 +22,7 @@ html {
 	color: #FF4500;
 	font-family: sans-serif;
 	font-size: 40px;
-	line-height: 60px;
+	line-height: 50px;
 	font-weight: bold;
 	margin: 0 auto;
 	white-space: nowrap;
@@ -187,6 +187,7 @@ body .leitores-tela {
 
 @media (max-width: 768px) {
 
+
 	#barra-navegacao {
 		justify-content: space-around;
 	}
@@ -201,6 +202,7 @@ body .leitores-tela {
 
 	#caixa .animacao {
 		font-size: 24px;
+		line-height: 30px;
 	}
 
 	#aprensentacao #foto img {
@@ -213,7 +215,7 @@ body .leitores-tela {
 		width: 0;
 	}
 	to {
-		width: 290px;
+		width: 280px;
 	}
 
 	}
@@ -340,6 +342,7 @@ body .leitores-tela {
 
 	#caixa .animacao {
 		font-size: 18px;
+		line-height: 25px;
 	}
 
 	#aprensentacao #foto img {
@@ -352,7 +355,7 @@ body .leitores-tela {
 		width: 0;
 	}
 	to {
-		width: 218px;
+		width: 210px;
 	}
 	
 	}
