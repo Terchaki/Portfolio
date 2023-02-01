@@ -341,7 +341,7 @@ body .leitores-tela {
 	}
 
 	#caixa .animacao {
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 25px;
 	}
 
@@ -355,7 +355,7 @@ body .leitores-tela {
 		width: 0;
 	}
 	to {
-		width: 200px;
+		width: 210px;
 	}
 	
 	}
@@ -451,6 +451,11 @@ body .leitores-tela {
 	.projetos-estilo button {
 		max-width: 80px;
 		font-size: 11px;
+	}
+
+	.hard-skills {
+		font-size: 10px;
+		padding: 2px;
 	}
 
 	.experiencia h5 {
